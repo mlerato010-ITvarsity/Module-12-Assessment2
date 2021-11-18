@@ -1,0 +1,53 @@
+body{
+    background-color: #4ecdc4;
+}
+
+.container{
+    border: 2px solid #000000 ;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+#refresh{
+    border: 1px solid blue ;
+}
+
+#addContact{
+    border: 1px solid blue ; 
+}
+
+#menu{
+    background-color:#c06c84;
+    height:100px;
+}
+
+#menu ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align: center;
+    font-size:25px;
+    line-height: 100px;
+    color:palevioletred;
+}
+
+#menu li{
+    display:inline-block;
+}
+#menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align:center;
+    text-transform: uppercase;
+    font-size:16px;
+    line-height: 100px;
+    color:#ffffff;
+
+    padding: 0 40px;
+    border:none;
+    display: block;
+}   
+
+#menu a:hover{
+    background-color:rgb(141, 80, 80);
+}
